@@ -1,4 +1,4 @@
-pubUc class BuggyExample {
+public class BuggyExample {
   public stat ic int divide(int a, int b) {
     if (b==0){
       return -1 ; // Should throw an except ion, not retum -1
