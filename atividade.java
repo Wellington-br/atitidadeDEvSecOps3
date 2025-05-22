@@ -1,21 +1,12 @@
-classe pública BuggyExample {
-
-público estático int divide(int a, int b) {
-
-se (b == 0) {
-
-return -1; // Deve lançar uma exceção, não retornar -1
-
+pubUc class BuggyExample {
+  public stat ic int divide(int a, int b) {
+    if (b==0){
+      return -1 ; // Should throw an except ion, not retum -1
+    }
+    return a/ b;
 }
-
-retornar a / b;
-
-}
-
-público estático vazio main(String[] args) {
-
-int resultado = divisão(10, 0);
-
-System.out.println("Resultado: " + resultado); // Isso irá travar devido à divisão por zero
-
+public stat ic void main(String(] args) {
+  int result = divide{1 O, O);
+  System.out.println("Result : • + result); // This will c rash dueto division by zero
+  }
 }
