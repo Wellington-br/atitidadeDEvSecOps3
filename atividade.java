@@ -6,7 +6,7 @@ public class BuggyExample {
     return a/ b;
 }
 public stat ic void main(String(] args) {
-  int result = divide{1 O, O);
+  int result = divide{1O, O);
   System.out.println("Result : • + result); // This will c rash dueto division by zero
   }
 }
